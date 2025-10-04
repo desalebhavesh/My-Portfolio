@@ -527,6 +527,17 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+    /* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
 
 }
+
 
