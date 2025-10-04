@@ -528,16 +528,15 @@ span {
         margin-top: 2rem;
     }
     /* For screens smaller than 768px (typical mobile devices) */
-@media (max-width: 768px) {
+@media (min-width: 600px) {
     body {
-        font-size: 14px;
-    }
-    .container {
-        padding: 10px;
+        width:100%;
+        height:100vh;
     }
 }
 
 
 }
+
 
 
