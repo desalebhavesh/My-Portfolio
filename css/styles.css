@@ -527,16 +527,15 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
-    /* For screens smaller than 768px (typical mobile devices) */
-@media (min-width: 600px) {
-    body {
-        width:100%;
-        height:100vh;
-    }
+    @media only screen and (min-width: 768px) { ... }
+    This section dictates the layout based on the screen size:
+* **Mobile (Default):** All styles outside this block run first. They define a simple, single-column, full-width layout, which is perfect for phones.
+* **Desktop/Tablet (Override):** When the screen is wider than 768 pixels, the code *inside* this block kicks in, changing the layout to a side-by-side, multi-column view.
 }
 
 
 }
+
 
 
 
